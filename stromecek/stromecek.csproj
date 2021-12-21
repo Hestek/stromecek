@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1-removebg-preview.png" />
+    <None Remove="2-removebg-preview.png" />
+    <None Remove="479219_1.jpg" />
+    <None Remove="christmas-ball-transparent-vector-clipart-626802-removebg-preview.png" />
+    <None Remove="christmas-ball-transparent-vector-clipart-626802.png" />
+    <None Remove="kisspng-christmas-day-snowman-christmas-decoration-christm-cabschau-page-1627-5d05cc405803b1.7762116515606610563605-removebg-preview.png" />
+    <None Remove="kisspng-christmas-day-snowman-christmas-decoration-christm-cabschau-page-1627-5d05cc405803b1.7762116515606610563605.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1-removebg-preview.png" />
+    <Resource Include="2-removebg-preview.png" />
+    <Resource Include="479219_1.jpg" />
+    <Resource Include="christmas-ball-transparent-vector-clipart-626802-removebg-preview.png" />
+    <Resource Include="christmas-ball-transparent-vector-clipart-626802.png" />
+    <Resource Include="kisspng-christmas-day-snowman-christmas-decoration-christm-cabschau-page-1627-5d05cc405803b1.7762116515606610563605-removebg-preview.png" />
+    <Resource Include="kisspng-christmas-day-snowman-christmas-decoration-christm-cabschau-page-1627-5d05cc405803b1.7762116515606610563605.jpg" />
+  </ItemGroup>
+
+</Project>
